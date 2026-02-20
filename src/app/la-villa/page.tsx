@@ -22,7 +22,7 @@ const spaces = [
       "Mobilier inclus",
       "Climatisation / chauffage",
     ],
-    image: "/images/la-villa-angelie-78.jpg",
+    image: "/images/clearpix_1771609068071.png",
   },
   {
     name: "La Terrasse Couverte",
@@ -35,7 +35,7 @@ const spaces = [
       "Lumières de tente",
       "Connexion haut débit",
     ],
-    image: "/images/la-villa-angelie-96.jpg",
+    image: "/images/clearpix_1771610025546.png",
   },
   {
     name: "La Terrasse Extérieure",
@@ -48,7 +48,7 @@ const spaces = [
       "Idéale photos",
       "Accès direct salle",
     ],
-    image: "/images/la-villa-angelie-113.jpg",
+    image: "/images/clearpix_1771609281032.png",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function LaVillaPage() {
       <div className="relative h-80 md:h-[500px] overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/la-villa-angelie-83.jpg"
+          src="/images/clearpix_1771609791319.png"
           alt="La Villa Angélie"
           className="w-full h-full object-cover"
         />

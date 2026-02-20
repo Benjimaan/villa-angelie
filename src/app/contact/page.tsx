@@ -141,8 +141,8 @@ export default function ContactPage() {
               <div className="bg-[#E8E0D5] h-48 flex items-center justify-center relative overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/images/la-villa-angelie-91.jpg"
-                  alt="Carte localisation"
+                  src="/images/clearpix_1771609848058.png"
+                  alt="La Villa Angélie"
                   className="w-full h-full object-cover opacity-60"
                 />
                 <div className="absolute inset-0 flex items-center justify-center">

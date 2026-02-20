@@ -7,19 +7,19 @@ import { ChevronDown } from "lucide-react";
 
 const slides = [
   {
-    image: "/images/la-villa-angelie-78.jpg",
+    image: "/images/clearpix_1771609848058.png",
     tag: "Mariages d'Exception",
     title: "Votre Jour Parfait\nCommence Ici",
     subtitle: "Un cadre contemporain et raffiné pour célébrer l'amour",
   },
   {
-    image: "/images/la-villa-angelie-87.jpg",
+    image: "/images/clearpix_1771609537366.png",
     tag: "Séminaires & Congrès",
     title: "L'Excellence au\nService du Business",
     subtitle: "Des espaces modulables jusqu'à 350 participants",
   },
   {
-    image: "/images/la-villa-angelie-96.jpg",
+    image: "/images/clearpix_1771609963818.png",
     tag: "Fêtes Privées",
     title: "Des Moments\nInoubliables",
     subtitle: "Terrasses, piste de danse, mobilier d'exception",

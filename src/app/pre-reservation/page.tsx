@@ -111,14 +111,14 @@ export default function PreReservationPage() {
               <div className="grid grid-cols-2 gap-2 mt-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/images/la-villa-angelie-74.jpg"
-                  alt="Salle réception"
+                  src="/images/clearpix_1771610222883.png"
+                  alt="Art de la table"
                   className="w-full h-32 object-cover"
                 />
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/images/la-villa-angelie-96.jpg"
-                  alt="Décoration"
+                  src="/images/clearpix_1771609408920.png"
+                  alt="Centre de table"
                   className="w-full h-32 object-cover"
                 />
               </div>

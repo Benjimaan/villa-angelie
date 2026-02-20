@@ -21,7 +21,7 @@ const mainServices = [
     icon: Heart,
     title: "Mariages",
     subtitle: "Le jour le plus beau de votre vie",
-    image: "/images/la-villa-angelie-83.jpg",
+    image: "/images/clearpix_1771609179109.png",
     desc: "La Villa Angélie est le cadre idéal pour un mariage d'exception. Espace pour la cérémonie laïque, grande salle décorée, piste de danse et terrasse pour le cocktail — tout est pensé pour que votre journée soit parfaite.",
     features: [
       "Cérémonie laïque possible",
@@ -37,7 +37,7 @@ const mainServices = [
     icon: Briefcase,
     title: "Séminaires & Congrès",
     subtitle: "L'excellence au service du professionnel",
-    image: "/images/la-villa-angelie-99.jpg",
+    image: "/images/clearpix_1771609537366.png",
     desc: "Un environnement inspirant pour vos réunions de direction, formations, et journées d'études. La modularité de nos espaces s'adapte à vos formats : amphithéâtre, îlots de travail, tables rondes.",
     features: [
       "Vidéo-projection & écran géant",
@@ -53,7 +53,7 @@ const mainServices = [
     icon: Users,
     title: "Fêtes Privées",
     subtitle: "Anniversaires, baptêmes et galas",
-    image: "/images/la-villa-angelie-96.jpg",
+    image: "/images/clearpix_1771609963818.png",
     desc: "Anniversaires mémorables, soirées d'entreprise, baptêmes et communions : la Villa Angélie se transforme selon vos envies. Notre espace de 350 m² total offre des configurations infiniment variées.",
     features: [
       "Décoration personnalisée",
@@ -75,7 +75,7 @@ export default function PrestationsPage() {
       <div className="relative h-72 md:h-96 overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/la-villa-angelie-87.jpg"
+          src="/images/clearpix_1771609848058.png"
           alt="Prestations La Villa Angélie"
           className="w-full h-full object-cover"
         />

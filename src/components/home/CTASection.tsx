@@ -11,7 +11,7 @@ export function CTASection() {
       {/* Background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/images/la-villa-angelie-87.jpg"
+        src="/images/clearpix_1771609848058.png"
         alt="La Villa Angélie"
         className="absolute inset-0 w-full h-full object-cover"
       />
