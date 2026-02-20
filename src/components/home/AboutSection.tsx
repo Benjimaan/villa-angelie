@@ -17,7 +17,7 @@ export function AboutSection() {
               <div className="relative z-10 overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <motion.img
-                  src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?w=800&q=85"
+                  src="/images/la-villa-angelie-99.jpg"
                   alt="Salle de réception La Villa Angélie"
                   className="w-full h-[480px] object-cover"
                   whileHover={{ scale: 1.03 }}
@@ -29,7 +29,7 @@ export function AboutSection() {
               <div className="absolute -bottom-10 -right-8 w-48 h-48 md:w-64 md:h-64 z-20 overflow-hidden border-4 border-ivory shadow-2xl">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=400&q=85"
+                  src="/images/la-villa-angelie-74.jpg"
                   alt="Décoration intérieure"
                   className="w-full h-full object-cover"
                 />

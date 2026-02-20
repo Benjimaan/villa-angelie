@@ -5,46 +5,29 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  {
-    src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=85",
-    alt: "Grande salle principale",
-    category: "Intérieur",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=85",
-    alt: "Décoration de mariage",
-    category: "Mariage",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=85",
-    alt: "Tables dressées",
-    category: "Art de la table",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=85",
-    alt: "Terrasse extérieure",
-    category: "Terrasses",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=800&q=85",
-    alt: "Piste de danse",
-    category: "Intérieur",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=85",
-    alt: "Soirée de gala",
-    category: "Soirée",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?w=800&q=85",
-    alt: "Cocktail terrasse",
-    category: "Terrasses",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&q=85",
-    alt: "Cérémonie",
-    category: "Mariage",
-  },
+  { src: "/images/la-villa-angelie-83.jpg", alt: "Allée florale lumière naturelle", category: "Intérieur" },
+  { src: "/images/la-villa-angelie-78.jpg", alt: "Grande salle dressée", category: "Intérieur" },
+  { src: "/images/la-villa-angelie-99.jpg", alt: "Grande salle colonnes", category: "Intérieur" },
+  { src: "/images/la-villa-angelie-77.jpg", alt: "Salle avec mur vert déco or", category: "Intérieur" },
+  { src: "/images/la-villa-angelie-74.jpg", alt: "Table close-up fleurs dorées", category: "Art de la table" },
+  { src: "/images/la-villa-angelie-79.jpg", alt: "Centre de table bougie or", category: "Art de la table" },
+  { src: "/images/la-villa-angelie-109.jpg", alt: "Tables dressées salle lumineuse", category: "Art de la table" },
+  { src: "/images/la-villa-angelie-96.jpg", alt: "Terrasse couverte dressée", category: "Terrasses" },
+  { src: "/images/la-villa-angelie-91.jpg", alt: "Terrasse extérieure mobilier blanc", category: "Terrasses" },
+  { src: "/images/la-villa-angelie-113.jpg", alt: "Terrasse cocktail extérieur", category: "Terrasses" },
+  { src: "/images/la-villa-angelie-87.jpg", alt: "Entrée avec arche et lions", category: "Mariage" },
+  { src: "/images/la-villa-angelie-88.jpg", alt: "Arche florale roses rouges", category: "Mariage" },
+  { src: "/images/la-villa-angelie-81.jpg", alt: "Allée cérémonie extérieure", category: "Mariage" },
+  { src: "/images/la-villa-angelie-83 (1).jpg", alt: "Entrée décorée fleurs blanches", category: "Mariage" },
+  { src: "/images/la-villa-angelie-86.jpg", alt: "Porte entrée décoration florale", category: "Mariage" },
+  { src: "/images/la-villa-angelie-75.jpg", alt: "Salle vue intérieure allée", category: "Mariage" },
+  { src: "/images/la-villa-angelie-102.jpg", alt: "Décoration florale verdoyante", category: "Mariage" },
+  { src: "/images/la-villa-angelie-112.jpg", alt: "Mur de fleurs roses", category: "Mariage" },
+  { src: "/images/la-villa-angelie-76.jpg", alt: "Composition florale colonne dorée", category: "Mariage" },
+  { src: "/images/la-villa-angelie-111.jpg", alt: "Décoration intérieure", category: "Intérieur" },
+  { src: "/images/la-villa-angelie-96 (1).jpg", alt: "Terrasse dressée vue large", category: "Terrasses" },
+  { src: "/images/la-villa-angelie-103.jpg", alt: "Espace événementiel", category: "Intérieur" },
+  { src: "/images/la-villa-angelie-104.jpg", alt: "Détail décoration", category: "Mariage" },
 ];
 
 const categories = ["Tout", "Intérieur", "Terrasses", "Mariage", "Soirée", "Art de la table"];
@@ -154,7 +137,7 @@ export function GalleryGrid() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={filtered[lightbox].src.replace("w=800", "w=1200")}
+                src={filtered[lightbox].src}
                 alt={filtered[lightbox].alt}
                 className="w-full max-h-[80vh] object-contain"
               />

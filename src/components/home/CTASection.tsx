@@ -11,7 +11,7 @@ export function CTASection() {
       {/* Background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1920&q=80"
+        src="/images/la-villa-angelie-87.jpg"
         alt="La Villa Angélie"
         className="absolute inset-0 w-full h-full object-cover"
       />

@@ -7,34 +7,34 @@ import { ArrowRight } from "lucide-react";
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=85",
-    alt: "Grande salle de réception décorée",
+    src: "/images/la-villa-angelie-83.jpg",
+    alt: "Allée florale lumière naturelle",
     span: "col-span-2 row-span-2",
     caption: "La Grande Salle — 230 m²",
   },
   {
-    src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=85",
-    alt: "Décoration florale mariage",
+    src: "/images/la-villa-angelie-88.jpg",
+    alt: "Arche florale sur terrasse",
     span: "col-span-1 row-span-1",
     caption: "Décoration sur-mesure",
   },
   {
-    src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=85",
-    alt: "Tables dressées pour réception",
+    src: "/images/la-villa-angelie-74.jpg",
+    alt: "Tables dressées art de la table",
     span: "col-span-1 row-span-1",
     caption: "Art de la table",
   },
   {
-    src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=85",
-    alt: "Terrasse extérieure",
+    src: "/images/la-villa-angelie-77.jpg",
+    alt: "Salle avec mur vert et décoration or",
     span: "col-span-1 row-span-1",
-    caption: "Terrasse couverte 80 m²",
+    caption: "Salle principale",
   },
   {
-    src: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600&q=85",
-    alt: "Piste de danse illuminée",
+    src: "/images/la-villa-angelie-109.jpg",
+    alt: "Table dressée terrasse couverte",
     span: "col-span-2 row-span-1",
-    caption: "Piste de danse",
+    caption: "Terrasse couverte — 80 m²",
   },
 ];
 
