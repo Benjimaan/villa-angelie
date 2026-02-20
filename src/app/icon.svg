@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+
+  <!-- Dark charcoal background -->
+  <rect width="100" height="100" fill="#2C2C2C"/>
+
+  <!-- Outer gold border frame -->
+  <rect x="4" y="4" width="92" height="92" fill="none" stroke="#C9A96E" stroke-width="2"/>
+
+  <!-- Inner gold border (double-frame luxury effect) -->
+  <rect x="8" y="8" width="84" height="84" fill="none" stroke="#C9A96E" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- Corner ornaments (mitered gold crosses at each corner) -->
+  <!-- Top-left -->
+  <line x1="4" y1="16" x2="4" y2="4" stroke="#C9A96E" stroke-width="2"/>
+  <line x1="4" y1="4" x2="16" y2="4" stroke="#C9A96E" stroke-width="2"/>
+  <!-- Top-right -->
+  <line x1="84" y1="4" x2="96" y2="4" stroke="#C9A96E" stroke-width="2"/>
+  <line x1="96" y1="4" x2="96" y2="16" stroke="#C9A96E" stroke-width="2"/>
+  <!-- Bottom-left -->
+  <line x1="4" y1="84" x2="4" y2="96" stroke="#C9A96E" stroke-width="2"/>
+  <line x1="4" y1="96" x2="16" y2="96" stroke="#C9A96E" stroke-width="2"/>
+  <!-- Bottom-right -->
+  <line x1="96" y1="84" x2="96" y2="96" stroke="#C9A96E" stroke-width="2"/>
+  <line x1="84" y1="96" x2="96" y2="96" stroke="#C9A96E" stroke-width="2"/>
+
+  <!-- Top ornament: small diamond above the V -->
+  <polygon points="50,14 54.5,18.5 50,23 45.5,18.5" fill="#C9A96E"/>
+
+  <!-- Serif V — left diagonal stroke -->
+  <line x1="19" y1="30" x2="50" y2="78" stroke="#C9A96E" stroke-width="7" stroke-linecap="butt"/>
+
+  <!-- Serif V — right diagonal stroke -->
+  <line x1="81" y1="30" x2="50" y2="78" stroke="#C9A96E" stroke-width="7" stroke-linecap="butt"/>
+
+  <!-- Left serif cap (horizontal bar at top-left of V) -->
+  <rect x="10" y="26" width="19" height="5" fill="#C9A96E"/>
+
+  <!-- Right serif cap (horizontal bar at top-right of V) -->
+  <rect x="71" y="26" width="19" height="5" fill="#C9A96E"/>
+
+  <!-- Bottom finial — tiny horizontal base at the apex of V -->
+  <rect x="45.5" y="77" width="9" height="4.5" fill="#C9A96E"/>
+
+  <!-- Small decorative rule below the V (elegance line) -->
+  <line x1="33" y1="88" x2="67" y2="88" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/>
+
+</svg>

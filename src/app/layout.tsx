@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   title: "La Villa Angélie | Salle de Mariage & Réception de Prestige",
   description:
     "La Villa Angélie, lieu de réception d'exception à Montataire (60). Mariages, séminaires et événements privés jusqu'à 350 invités. Cadre élégant, terrasses et services haut de gamme. Demandez votre devis.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   keywords: [
     "location salle mariage prestige",
     "villa événementielle Oise",
