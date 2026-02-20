@@ -1,26 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
   --font-mono: var(--font-geist-mono);
+
+  /* Villa Angelie Design Tokens */
+  --color-ivory: #FAF7F2;
+  --color-ivory-dark: #F0EBE1;
+  --color-gold: #C9A96E;
+  --color-gold-light: #DFC99A;
+  --color-gold-dark: #8B6914;
+  --color-sage: #9CAF88;
+  --color-sage-light: #C8D9BE;
+  --color-charcoal: #2C2C2C;
+  --color-warm-gray: #7A7572;
+  --color-warm-gray-light: #B8B4B0;
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --radius: 0.25rem;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-light: 'Cormorant Garamond', Georgia, serif;
+
+  --background: #FAF7F2;
+  --foreground: #2C2C2C;
+  --card: #FFFFFF;
+  --card-foreground: #2C2C2C;
+  --popover: #FFFFFF;
+  --popover-foreground: #2C2C2C;
+  --primary: #C9A96E;
+  --primary-foreground: #FAF7F2;
+  --secondary: #F0EBE1;
+  --secondary-foreground: #2C2C2C;
+  --muted: #F0EBE1;
+  --muted-foreground: #7A7572;
+  --accent: #9CAF88;
+  --accent-foreground: #2C2C2C;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #E8E0D5;
+  --input: #E8E0D5;
+  --ring: #C9A96E;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-light-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .text-gold {
+    color: #C9A96E;
+  }
+  .text-charcoal {
+    color: #2C2C2C;
+  }
+  .bg-ivory {
+    background-color: #FAF7F2;
+  }
+  .bg-ivory-dark {
+    background-color: #F0EBE1;
+  }
+  .border-gold {
+    border-color: #C9A96E;
+  }
+
+  /* Gold gradient text */
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #C9A96E 0%, #DFC99A 50%, #8B6914 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Luxury divider */
+  .divider-gold {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #C9A96E, transparent);
+  }
 }
